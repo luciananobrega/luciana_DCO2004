@@ -5,7 +5,7 @@
 
 **D01: Criação de máquina virtual**
 
-Print comprovando a criação da máquina virtual está [aqui](luciana_DCO2004/printVirtualMachine.PNG).
+Print comprovando a criação da máquina virtual está [aqui](https://github.com/luciananobrega/luciana_DCO2004/blob/master/printVirtualMachine.PNG).
 
 **D02: Cadastramento e criação de repositório no Github**
 
