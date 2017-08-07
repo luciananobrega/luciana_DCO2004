@@ -5,7 +5,7 @@ Arquivo criado para testar os recursos esteticos.
 
 - [Exemplo de link](https://github.com/)
 
-![Exemplo de imagem](https://assets-cdn.github.com/images/modules/logos_page/Octocat.png)
+![Exemplo de imagem](http://www.molecularecologist.com/wp-content/uploads/2013/11/github-logo.jpg)
 
 Teste de redimensionamento de imagem:
 
