@@ -12,6 +12,7 @@ for il = 1:nl
         py(ic,il) = px(il,ic);
     end
 end
+
 % Matrizes de posição e potência recebida
 for il = 1:nl
     for ic = 1:nl
