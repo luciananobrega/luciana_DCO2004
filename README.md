@@ -21,4 +21,4 @@ Disponível [aqui]( luciana_DCO2004/h00/pratica1.ipynb ).
 
 **D04: Construção do arquivo testMatlab.ipynb**
 
-Disponível [aqui](luciana_DCO2004/h00/testMatlab.ipynb).
+Disponível [aqui](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h00/testMatlab.ipynb.
