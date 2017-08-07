@@ -17,7 +17,7 @@ Testes de Markdown:
 
 **D03: Construção do arquivo Pratica01.ipynb**
 
-Disponível [aqui](luciana_DCO2004/h00/pratica1.ipynb).
+Disponível [aqui]( luciana_DCO2004/h00/pratica1.ipynb ).
 
 **D04: Construção do arquivo testMatlab.ipynb**
 
