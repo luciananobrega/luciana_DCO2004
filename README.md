@@ -9,11 +9,11 @@ Print comprovando a criação da máquina virtual está [aqui](https://github.co
 
 **D02: Cadastramento e criação de repositório no Github**
 
-Testes de Markdown:
+- Testes de Markdown:
 
-- [Exemplo de link](https://github.com/)
+  [Exemplo de link](https://github.com/)
 
-![Exemplo de imagem](http://www.molecularecologist.com/wp-content/uploads/2013/11/github-logo.jpg)
+  ![Exemplo de imagem](http://www.molecularecologist.com/wp-content/uploads/2013/11/github-logo.jpg)
 
 **D03: Construção do arquivo Pratica01.ipynb**
 
