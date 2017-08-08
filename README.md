@@ -22,3 +22,14 @@ Disponível [aqui]( http://nbviewer.jupyter.org/github/luciananobrega/luciana_DC
 **D04: Construção do arquivo testMatlab.ipynb**
 
 Disponível [aqui](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h00/testMatlab.ipynb).
+
+### Hands-on 01:
+
+**D01: Discussão do Passo 08 da Prática 01**
+
+**D02: Passo 03 da Prática 02: Ambiente de depuração (debug)**
+
+**D03: Realizar a Prática 03**
+
+**D04: Realizar a Prática 03:**
+
