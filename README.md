@@ -3,7 +3,7 @@
 
 ### Hands-on 00:
 
-[**D01: Criação de máquina virtual**](https://github.com/luciananobrega/luciana_DCO2004/blob/master/printVirtualMachine.PNG)
+[**D01: Criação de máquina virtual**](https://github.com/luciananobrega/luciana_DCO2004/blob/master/h00/printVirtualMachine.PNG)
 
 
 **D02: Cadastramento e criação de repositório no Github**
