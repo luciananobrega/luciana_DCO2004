@@ -27,13 +27,17 @@ Disponível [aqui](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO
 ### Hands-on 01:
 
 **D01: Discussão do Passo 08 da Prática 01: Ambiente de edição**
+
 Disponível [aqui](https://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h01/D01.ipynb).
 
 **D02: Passo 03 da Prática 02: Ambiente de depuração (debug)**
+
 Disponível [aqui](https://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h01/D02.ipynb).
 
 **D03: Realizar a Prática 03 (Matlab)**
+
 Disponível [aqui](https://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h01/D03.ipynb).
 
 **D04: Realizar a Prática 03 (Python)**
+
 Disponível [aqui](https://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h01/D04.ipynb).
