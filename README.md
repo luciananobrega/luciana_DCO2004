@@ -13,7 +13,8 @@ Print comprovando a criação da máquina virtual está [aqui](https://github.co
 
   [Exemplo de link](https://github.com/)
 
-  ![Exemplo de imagem](http://www.molecularecologist.com/wp-content/uploads/2013/11/github-logo.jpg)
+  <img src="http://www.molecularecologist.com/wp-content/uploads/2013/11/github-logo.jpg" width="300">
+
 
 **D03: Construção do arquivo Pratica01.ipynb**
 
