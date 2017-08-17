@@ -26,12 +26,7 @@ else
 end
 % End initialization code - DO NOT EDIT
 
-% Variáveis
-tf = 1;                   % Tempo de duração da nota
-fc = 512;                 % Frequência da nota Dó
-fs = 100*fc;              % Frequência de amostragem da nota. 
-t = 0:1/fs:tf;            % Vetor tempo. Para cada elemento do vetor t, haverá um elemento em y correspondente.
-A = 1;                    % Amplitude do sinal
+
 
 
 % --- Executes just before D01_GUI is made visible.
@@ -63,79 +58,156 @@ function varargout = D01_GUI_OutputFcn(hObject, eventdata, handles)
 % Get default command line output from handles structure
 varargout{1} = handles.output;
 
-
-
-function ReButton_Callback(hObject, eventdata, handles)
-
-
-
+% --- Executes on button press in DoButton.
 function DoButton_Callback(hObject, eventdata, handles)
+global t
+global y
 
+[t,y] = play_and_plot(1);
 
+axes(handles.axes1)
+plot(t, y)
+axis([0 0.02 -1.5 1.5 ]);
+
+% --- Executes on button press in DoSusButton.
 function DoSusButton_Callback(hObject, eventdata, handles)
 
+global t
+global y
 
+[t,y] = play_and_plot(1.059);
 
+axes(handles.axes1)
+plot(t, y)
+axis([0 0.02 -1.5 1.5 ]);
 
-function MiButton_Callback(hObject, eventdata, handles)
+% --- Executes on button press in ReButton.
+function ReButton_Callback(hObject, eventdata, handles)
 
+global t
+global y
 
+[t,y] = play_and_plot(9/8);
 
+axes(handles.axes1)
+plot(t, y)
+axis([0 0.02 -1.5 1.5 ]);
+
+% --- Executes on button press in ReSusButton.
 function ReSusButton_Callback(hObject, eventdata, handles)
+global t
+global y
 
+[t,y] = play_and_plot(1.189);
 
+axes(handles.axes1)
+plot(t, y)
+axis([0 0.02 -1.5 1.5 ]);
 
+% --- Executes on button press in MiButton.
+function MiButton_Callback(hObject, eventdata, handles)
+global t
+global y
 
+[t,y] = play_and_plot(5/4);
+
+axes(handles.axes1)
+plot(t, y)
+axis([0 0.02 -1.5 1.5 ]);
+
+% --- Executes on button press in FaButton.
 function FaButton_Callback(hObject, eventdata, handles)
-% hObject    handle to FaButton (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
 
+global t
+global y
 
-% --- Executes on button press in SolButton.
-function SolButton_Callback(hObject, eventdata, handles)
-% hObject    handle to SolButton (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
+[t,y] = play_and_plot(4/3);
+
+axes(handles.axes1)
+plot(t, y)
+axis([0 0.02 -1.5 1.5 ]);
 
 
 % --- Executes on button press in FaSusButton.
 function FaSusButton_Callback(hObject, eventdata, handles)
-% hObject    handle to FaSusButton (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
+global t
+global y
 
+[t,y] = play_and_plot(1.414);
 
-% --- Executes on button press in LaButton.
-function LaButton_Callback(hObject, eventdata, handles)
-% hObject    handle to LaButton (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
+axes(handles.axes1)
+plot(t, y)
+axis([0 0.02 -1.5 1.5 ]);
+
+% --- Executes on button press in SolButton.
+function SolButton_Callback(hObject, eventdata, handles)
+global t
+global y
+
+[t,y] = play_and_plot(3/2);
+
+axes(handles.axes1)
+plot(t, y)
+axis([0 0.02 -1.5 1.5 ]);
 
 
 % --- Executes on button press in SolSusButton.
 function SolSusButton_Callback(hObject, eventdata, handles)
-% hObject    handle to SolSusButton (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
 
+global t
+global y
 
-% --- Executes on button press in SiButton.
-function SiButton_Callback(hObject, eventdata, handles)
-% hObject    handle to SiButton (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
+[t,y] = play_and_plot(1.587);
+
+axes(handles.axes1)
+plot(t, y)
+axis([0 0.02 -1.5 1.5 ]);
+
+% --- Executes on button press in LaButton.
+function LaButton_Callback(hObject, eventdata, handles)
+global t
+global y
+
+[t,y] = play_and_plot(5/3);
+
+axes(handles.axes1)
+plot(t, y)
+axis([0 0.02 -1.5 1.5 ]);
 
 
 % --- Executes on button press in LaSusButton.
 function LaSusButton_Callback(hObject, eventdata, handles)
-% hObject    handle to LaSusButton (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
+
+global t
+global y
+
+[t,y] = play_and_plot(1.782);
+
+axes(handles.axes1)
+plot(t, y)
+axis([0 0.02 -1.5 1.5 ]);
+
+
+
+% --- Executes on button press in SiButton.
+function SiButton_Callback(hObject, eventdata, handles)
+global t
+global y
+
+[t,y] = play_and_plot(15/8);
+
+axes(handles.axes1)
+plot(t, y)
+axis([0 0.02 -1.5 1.5 ]);
 
 
 % --- Executes on button press in Do2Button.
 function Do2Button_Callback(hObject, eventdata, handles)
-% hObject    handle to Do2Button (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
+global t
+global y
+
+[t,y] = play_and_plot(2);
+
+axes(handles.axes1)
+plot(t, y)
+axis([0 0.02 -1.5 1.5 ]);
