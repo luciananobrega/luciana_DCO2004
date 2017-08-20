@@ -1,7 +1,8 @@
 close all;clc;clear all;                                          % Limpa variáveis e fecha todos os gráficos
 soundFile = ['./material/sound_01.wav'];                          % Especifica do local e nome do arquivo de áudio
 
-[vtSom, dFa] = audioread(soundFile);                              % Abre arquivo de áudio de um arquivo
+[vtSom, dFa] = audioread(soundFile); % Abre arquivo de áudio de um arquivo
+ vtSom = [vtSom; vtSom];
 % vtSom: amplitude das amostras de som
 % dFa: frequência de amostrasgem do som (amostragem no tempo)
 sInfo = audioinfo(soundFile);
