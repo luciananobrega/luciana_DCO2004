@@ -25,6 +25,7 @@ plt.show()
 
 #importando e armazenando o arquivo de áudio numa variável
 som = wv.read('./material/sound_01.wav')
+som = som[1]
 
 #salvando o tom gerado em um arquivo de extensão .wav :
 wv.write('./material/tom_gerado.wav',fs,y)

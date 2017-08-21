@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Aug 21 12:11:36 2017
-
-@author: luciana
-"""
-
 import numpy as np
 import scipy.io.wavfile as wv 
 import os
@@ -26,7 +19,7 @@ plt.ylabel('Amplitude')                            # Configura eixo X do gráfic
 plt.xlabel('Tempo (s)')                            # Configura eixo Y do gráfico
 
 wv.write('./material/sem_eco.wav',dFa,vtSom)
-#os.system('cvlc --play-and-exit ./material/sem_eco.wav') 
+os.system('cvlc --play-and-exit ./material/sem_eco.wav') 
 
 ## Modifica o arquivo incluindo eco (uma réplica atrasada do sinal oirginal)
 n = 2000                                           # Atraso da réplica do sinal                                                          
@@ -38,14 +31,17 @@ vtSomEco += eco
 vtSomEco += vtSom
 
 wv.write('./material/com_eco.wav',dFa,vtSomEco.astype('int16'))
-#os.system('cvlc --play-and-exit ./material/com_eco.wav') 
+os.system('cvlc --play-and-exit ./material/com_eco.wav') 
 
 plt.subplot(312)                                   # Segundo gráfico do subplot
+
 
 plt.plot(vtTSom,vtSomEco)                          # Plota gráfico do áudio
 plt.title(['Sinal de Áudio + Réplica'])            # Configura título do gráfico
 plt.ylabel('Amplitude')                            # Configura eixo X do gráfico
+plt.xlim([0.15,.16])
 plt.xlabel('Tempo (s)')    
+
 
 plt.subplot(3,1,3)                                 # Terceiro gráfico do subplot
 plt.plot(vtTSom,vtSom-vtSomEco)                    # Plota gráfico do áudio
@@ -55,6 +51,3 @@ plt.xlabel('Tempo (s)')                            # Configura eixo Y do gráfic
 
 plt.tight_layout()
 plt.show()
-
-som = wv.read('./material/sem_eco.wav')
-som_eco = wv.read('./material/com_eco.wav')
