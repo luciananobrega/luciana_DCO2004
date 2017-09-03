@@ -32,10 +32,13 @@
 [**D04: Realizar a Prática 03 (Python)**](https://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h01/D04.ipynb).
 
 ### Hands-on 02:
-[**D01: Interface gráfica utilizando recursos do GUI**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/tree/master/h02/GUI/)
+[**D01: Interface gráfica utilizando recursos do GUI**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/tree/master/h02/GUI/).
 
-[**D02: Manipulação de sinais de áudio no Matlab**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h02/Entrega_h02.ipynb)
+[**D02: Manipulação de sinais de áudio no Matlab**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h02/Entrega_h02.ipynb).
 
-[**D03: Plot de senoides de notas musicais em Python**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h02/Entrega_h02.ipynb)
+[**D03: Plot de senoides de notas musicais em Python**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h02/Entrega_h02.ipynb).
 
-[**D04: Abrindo e reproduzindo arquivos de música - visualização da réplica**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h02/Entrega_h02.ipynb)
+[**D04: Abrindo e reproduzindo arquivos de música - visualização da réplica**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h02/Entrega_h02.ipynb).
+
+### Hands-on 03:
+[**D01: Plote do espectro dos arquivos Violino.wav e Flauta.wav**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h03/Entrega_h03.ipynb).
