@@ -1,5 +1,5 @@
 function varargout = D01_GUI(varargin)
-%D01_GUI M-file for D01_GUI.fig
+% D01_GUI M-file for D01_GUI.fig
 %      D01_GUI, by itself, creates a new D01_GUI or raises the existing
 %      singleton*.
 
