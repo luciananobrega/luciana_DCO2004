@@ -1,6 +1,6 @@
 clc; clear all; close all;
 %% Determinando os parâmetros da onda
-tau = 1e-4;                                                     % Constante de tempo do detector de envelope
+tau = 1e-3;                                                     % Constante de tempo do detector de envelope
 t = [0:999]*1e-6;                                               % Definição do vetor tempo
 Ts = 1e-6;                                                      % Definição do período
 fc = 10000;                                                     % Frequência da portadora
