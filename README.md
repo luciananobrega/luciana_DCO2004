@@ -54,3 +54,6 @@
 ### Hands-on 07:
 [**Entregáveis hands-on 07**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h07/Entrega_h07.ipynb)
 
+### Hands-on 08:
+[**Entregáveis hands-on 08**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h08/Entrega_h08.ipynb)
+
