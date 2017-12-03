@@ -60,7 +60,7 @@
 ## Unidade III
 
 ### Hands-on 09:
-[**Entregáveis hands-on 09**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h05/Entrega_h09.ipynb)
+[**Entregáveis hands-on 09**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h09/Entrega_h09.ipynb)
 
 ### Hands-on 10:
-[**Entregáveis hands-on 10**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h06/Entrega_h10.ipynb)
+[**Entregáveis hands-on 10**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h10/Entrega_h10.ipynb)
