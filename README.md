@@ -64,3 +64,6 @@
 
 ### Hands-on 10:
 [**Entregáveis hands-on 10**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h10/Entrega_h10.ipynb)
+
+### Hands-on 11:
+[**Entregáveis hands-on 11**](http://nbviewer.jupyter.org/github/luciananobrega/luciana_DCO2004/blob/master/h11/Entrega_h11.ipynb)
